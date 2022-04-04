@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&display=swap');
+
+body {
+    font-family: 'Fahkwang', sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.caixa-banner {
+    background-image: url(../IMG/banner-lc.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 26px;
+    text-shadow: 2px 2px #000000a1;
+}
+
+.p1 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 26px;
+    text-shadow: 2px 2px #000000a1;
+}
+
+.titulo-sobre {
+    margin-left: 80px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: #569ce4;
+    text-shadow: 2px 2px #000000a1;
+
+}
+
+.caixa-sobre {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.lado1 {
+    width: 35%;
+    padding: 5px;
+}
+
+.link-texto {
+    text-decoration: none;
+    color: black;
+}
+
+.link-lattes {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #569ce4;
+    padding: 8px 20px;
+    box-shadow: 5px 5px #000000a1;
+}
+
+.link-lattes:hover {
+    background-color: #B6DBFA;
+    color: black;
+}
+
+.lado2 {
+    width: 15%;
+    padding: 5px;
+}
+
+.h4-sobre {
+    margin-left: 40px;
+}
+
+ul {
+    line-height: 1.8;
+    list-style: none;
+}
+
+ul li::before {
+    content: "▪ ";
+}
+
+.titulo-contato {
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #569ce4;
+    text-shadow: 2px 2px #000000a1;
+    text-align: right;
+}
+
+.caixa-contato {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.lado4 {
+    padding: 5px;
+}
+
+.h4-contato {
+    margin-left: 0px;
+}
+
+.lado5{
+    padding: 5px;
+}
+
+.links {
+    background-color: #569ce4;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    box-shadow: 5px 5px #000000a1;
+}
+    
+.links:hover {
+    background-color: #B6DBFA;
+    color: black;
+}
+
+.icone {
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #569ce4;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.link-final {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 710px) {
+        .caixa-sobre {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .caixa-contato {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lado1 {
+            width: 80%;
+            text-align: justify;
+            
+        }
+
+        .lado2 {
+            width: 80%;
+        }
+
+        .titulo-sobre {
+            margin: 20px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .titulo-contato {
+            margin: 20px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .links {
+            margin-top: 10px;
+        }
+
+        .icone {
+            margin-top: 10px;
+        }
+
+    }
